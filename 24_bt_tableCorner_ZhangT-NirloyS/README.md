@@ -1,4 +1,4 @@
-## Team: MandN (Marc Jiang and Nicole Zhou) SoftDev K24 -- Mmmmmm... Tasty! 2022-11-30 time spent: 0.7 hrs
+## Team: TableCorners (Sadi Nirloy, Thomas Zhang) SoftDev K24 -- Mmmmmm... Tasty! 2022-11-30 time spent: 0.7 hrs
 
 DISCO
 Both Foundation and Bootstrap have many choices for forms and grids.
