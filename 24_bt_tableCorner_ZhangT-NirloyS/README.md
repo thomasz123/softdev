@@ -1,7 +1,7 @@
-## Team: TableCorners (Sadi Nirloy, Thomas Zhang) 
-## SoftDev 
-## K24 -- Mmmmmm... Tasty! 
-## 2022-11-30
+# Team: TableCorners (Sadi Nirloy, Thomas Zhang) 
+# SoftDev 
+# K24 -- Mmmmmm... Tasty! 
+# 2022-11-30
 
 DISCO
 Both Foundation and Bootstrap have many choices for forms and grids.
