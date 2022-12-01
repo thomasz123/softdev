@@ -4,12 +4,11 @@
 # 2022-11-30
 
 DISCO
-Both Foundation and Bootstrap have many choices for forms and grids.
-Bootstrap has cleaner looking css and more options for spinners, cards, tables, and navigation bars.
+Foundation and Bootstrap have many similar features such the grid system and forms. 
 QCC:
-Bootstrap is harder to use.
+
+
 q0: Did you have to consult resources beyond your Devo-generated on-ramp?
 a0: 0
-
 q1: At this point, which FEF do you prefer, and why?
-a1: Bootstrap because it looks cleaner and provides more choices.
+a1: 
