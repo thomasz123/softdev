@@ -30,15 +30,23 @@ var drawRect = function(e) {
     var mouseX = e.offsetX;
     var mouseY = e.offsetY;
     console.log("mouseclick registered at ", mouseX, mouseY);
-
+    ctx.beginPath();
+    ctx.fillStyle = "red";
+    ctx.rect(mouseX,mouseY,60,110);
+    ctx.fill();
+    ctx.stroke();
 }
 
 //var drawCircle = function(e) {
 var drawCircle = (e) => {
     var mouseX = e.offsetX;
     var mouseY = e.offsetY;
-    console.log("circ mouseclick registered at ", mouseX, mouseY);
-
+    console.log("mouseclick registered at ", mouseX, mouseY);
+    ctx.beginPath();
+    ctx.fillStyle = "blue";
+    ctx.arc(mouseX, mouseY, 40, 0, 2*Math.PI);
+    ctx.fill();
+    ctx.stroke();
 }
 
 //var draw = function(e) {
@@ -53,11 +61,11 @@ var draw = (e) => {
 
 //var wipeCanvas = function() {
 var wipeCanvas = () => {
-
+    ctx.clearRect(0, 0, c.width, c.height);
 }
 
 c.addEventListener("click", draw);
 //var bToggler = document. ;
 //bToggler. ;
-//var clearB = ;
-//clearB. ;
+var clearB = document.getElementById("buttonClear");
+clearB.addEventListener("click", wipeCanvas);
